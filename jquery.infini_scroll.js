@@ -104,14 +104,13 @@
         });
     }
 
-
     // default settings
     $.fn.infini_scroll.defaults = {
         totalPages      : 0,                // 总页数，默认为0
         url             : '',               // 获取列表url请求地址，直接返回列表的html
         varPage         : 'p',              // 分页变量，默认为p
         triggerBottom   : 100,              // 距离最底部多少像素触发
-        round           : 3,                // 当上拉刷新4次后，显示“加载更多”，防止无限制加载
+        round           : 3,                // 当上拉刷新3次后，显示“加载更多”，防止无限制加载
         loadingElement  : '#J_loading',     // 显示“正在加载更多”节点
         loadMoreElement : '#J_load_more',   // 当round达到加载次数后显示的“加载更多”节点，
         debug           : false             // 调试模式开关，默认未开启
