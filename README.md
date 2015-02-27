@@ -1,6 +1,6 @@
 当前版本：1.0.1
 
-## What is
+## What is ![Build Status](https://secure.travis-ci.org/jshttp/cookie.svg?branch=master)
 
 infini scroll jquery 插件用来在页面滚动到屏幕底部时自动加载内容并追加 DOM 元素到页面底部，api接口友好，可能是你目前能找到的最简单好用的无限滚动加载插件。
 
@@ -26,7 +26,7 @@ infini scroll jquery 插件用来在页面滚动到屏幕底部时自动加载�
 ## How to use
 
 1. HTML结构
-````
+``` html
     <ul id="J_mod_article_list" class="mod-article-list">
         <li>1</li>
         <li>2</li>
@@ -45,7 +45,7 @@ infini scroll jquery 插件用来在页面滚动到屏幕底部时自动加载�
 ```
 
 2. JS 代码
-```
+``` javascript
     $(document).ready(function(){
         $("#J_mod_article_list").infini_scroll({
             totalPages      : 5,
