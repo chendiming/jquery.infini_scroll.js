@@ -10,7 +10,7 @@ infini scroll jquery 插件用来在页面滚动到屏幕底部时自动加载�
 ## Installation
 
 1. 包含 infini_scroll JavaScript 文件
-2. 运行 $("#J_mod_article_list").infini_scroll();
+2. 运行 $("#J_mod_article_list").infini_scroll({});
 
 配置选项包含：
 
