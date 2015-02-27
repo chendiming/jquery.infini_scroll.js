@@ -2,7 +2,7 @@
 
 ## What is
 
-infini scroll jQuery 插件用来在页面滚动到屏幕底部时自动加载内容并追加 DOM 元素到页面底部，api接口友好，可能是你能找到的最简单好用的无限滚动加载插件。
+infini scroll jquery 插件用来在页面滚动到屏幕底部时自动加载内容并追加 DOM 元素到页面底部，api接口友好，可能是你目前能找到的最简单好用的无限滚动加载插件。
 
 ## Live Demo
 [点击查看在线 demo](http://csspower.fanrong33.com/csspower/javascript/infini_scroll/index.html)
