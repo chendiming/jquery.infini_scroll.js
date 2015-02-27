@@ -41,7 +41,6 @@ infini scroll jquery 插件用来在页面滚动到屏幕底部时自动加载�
 <div id="J_loading" style="display:none;">正在加载更多</div>
 <div id="J_load_more" style="display:none;">点击加载更多</div>
 ```
-
 2. JS 代码
 ``` javascript
 $(document).ready(function(){
