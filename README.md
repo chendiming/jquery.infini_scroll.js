@@ -27,33 +27,33 @@ infini scroll jquery 插件用来在页面滚动到屏幕底部时自动加载�
 
 1. HTML结构
 ``` html
-    <ul id="J_mod_article_list" class="mod-article-list">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        ...
-        <li>36</li>
-        <li>37</li>
-        <li>38</li>
-        <li>39</li>
-        <li>40</li>
-    </ul>
-    <div id="J_loading" style="display:none;">正在加载更多</div>
-    <div id="J_load_more" style="display:none;">点击加载更多</div>
+<ul id="J_mod_article_list" class="mod-article-list">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    ...
+    <li>36</li>
+    <li>37</li>
+    <li>38</li>
+    <li>39</li>
+    <li>40</li>
+</ul>
+<div id="J_loading" style="display:none;">正在加载更多</div>
+<div id="J_load_more" style="display:none;">点击加载更多</div>
 ```
 
 2. JS 代码
 ``` javascript
-    $(document).ready(function(){
-        $("#J_mod_article_list").infini_scroll({
-            totalPages      : 5,
-            url             : "ajax_get_article_list.html",
-            triggerBottom   : 1,  // test
-            debug           : true
-        });
+$(document).ready(function(){
+    $("#J_mod_article_list").infini_scroll({
+        totalPages      : 5,
+        url             : "ajax_get_article_list.html",
+        triggerBottom   : 1,  // test
+        debug           : true
     });
+});
 ```
 
 ##History
